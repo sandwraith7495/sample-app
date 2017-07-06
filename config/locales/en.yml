@@ -20,16 +20,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  sample-app: "sample app"
+  sample_app: "sample app"
   hello: "Hello world"
   welcome: "Welcome to the Sample App"
   home: "Home"
   about: "About"
   help: "Help"
   contact: "Contact"
-  log-in: "Log in"
+  log_in: "Log in"
   title: "Ruby on Rails Tutorial Sample App"
-  about-site: |
+  about_site: |
     The <a href="http://www.railstutorial.org/"><em>Ruby on Rails
     Tutorial</em></a> is a
     <a href="http://www.railstutorial.org/book">book</a> and
@@ -37,18 +37,23 @@ en:
     to teach web development with
     <a href="http://rubyonrails.org/">Ruby on Rails</a>.
     This is the sample application for the tutorial.
-  contact-site: |
+  contact_site: |
     Contact the Ruby on Rails Tutorial about the sample app at the
     <a href="http://www.railstutorial.org/contact">contact page</a>.
-  help-site: |
+  help_site: |
     Get help on the Ruby on Rails Tutorial at the
     <a href="http://www.railstutorial.org/help">Rails Tutorial help page</a>.
     To get help on this sample app, see the
     <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
     book</a>.
-  sign-up: "Sign up now!"
-  home-page: |
+  sign_up: "Sign up now!"
+  home_page: |
     This is the home page for the
     <a href="http://www.railstutorial.org/">Rails Tutorial</a>
     sample application.
   logo: "Rails logo"
+  new: |
+    <a href="http://news.railstutorial.org/">News</a>
+  michael_hartl: |
+    The <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
