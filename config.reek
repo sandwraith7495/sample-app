@@ -3,3 +3,6 @@ IrresponsibleModule:
 
 FeatureEnvy:
   enabled: false
+
+TooManyStatements:
+  enabled: false
