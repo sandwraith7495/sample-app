@@ -2,5 +2,4 @@ IrresponsibleModule:
   enabled: false
 
 FeatureEnvy:
-  exclude:
-    - "ApplicationHelper"
+  enabled: false

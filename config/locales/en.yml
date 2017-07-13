@@ -46,7 +46,7 @@ en:
     To get help on this sample app, see the
     <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
     book</a>.
-  sign_up: "Sign up now!"
+  sign_up: "Sign up"
   home_page: |
     This is the home page for the
     <a href="http://www.railstutorial.org/">Rails Tutorial</a>
@@ -57,3 +57,8 @@ en:
   michael_hartl: |
     The <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
     by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+  create_account: "Create my account"
+  confirmation: "Confirmation"
+  danger: "No user was found!"
+  error: "error"
+  the_form_contain: "The form contains"
