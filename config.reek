@@ -6,3 +6,6 @@ FeatureEnvy:
 
 TooManyStatements:
   enabled: false
+
+Attribute:
+  enabled: false
