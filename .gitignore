@@ -29,3 +29,5 @@ config/environments/*.local.yml
 .framgia-ci-result.temp.yml
 .byebug_history
 /config/local_env.yml
+public/javascripts/i18n.js
+public/javascripts/translations.js

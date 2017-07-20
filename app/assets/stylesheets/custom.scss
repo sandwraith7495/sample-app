@@ -4,6 +4,7 @@ $background-color: #fff;
 $gray-medium-light: #eaeaea;
 $purple: #bbb;
 $red: #f00;
+$gray: #e8e8e8;
 
 @mixin box-sizing {
   box-sizing: border-box;
@@ -44,6 +45,11 @@ aside {
       margin-top: 1px;
       text-align: left;
     }
+  }
+
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
   }
 }
 
@@ -123,6 +129,51 @@ textarea {
 
   h1 {
     margin-bottom: 10px;
+  }
+}
+
+.microposts {
+  list-style: none;
+  padding: 0;
+
+  li {
+    border-top: 1px solid $gray;
+    padding: 10px 0;
+  }
+
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+
+  .content {
+    display: block;
+    margin-left: 60px;
+
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+
+  .timestamp {
+    color: $gray-light;
+    display: block;
+    margin-left: 60px;
+  }
+
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+.picture {
+  margin-top: 10px;
+
+  input {
+    border: 0;
   }
 }
 
