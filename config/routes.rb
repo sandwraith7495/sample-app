@@ -15,5 +15,6 @@ Rails.application.routes.draw do
   resources :account_activations, only: [:edit]
   resources :password_resets, only: [:new, :create, :edit, :update]
   resources :microposts, only: [:create, :destroy]
+  resources :relationships, only: [:create, :destroy, :index]
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

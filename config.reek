@@ -9,3 +9,9 @@ TooManyStatements:
 
 Attribute:
   enabled: false
+
+TooManyMethods:
+  max_methods: 20
+
+TooManyInstanceVariables:
+  max_methods: 10
