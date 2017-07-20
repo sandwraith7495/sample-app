@@ -20,8 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  sample_app: "sample app"
-  hello: "Hello world"
+  sample_app: "Sample app"
+  hello: "Hello"
   welcome: "Welcome to the Sample App"
   home: "Home"
   about: "About"
@@ -80,3 +80,11 @@ en:
   delete: "delete"
   user_deleted: "User deleted"
   change: "Change"
+  account_activation: "Account activation"
+  please_activate_email: "Please check your email to activate your account."
+  account_activated: "Account activated!"
+  invalid_link: "Invalid activation link"
+  account_not_activated: "Account not activated. Check your email for the activation link."
+  activate: "Activate"
+  click_to_activate: "Welcome to the Sample App! Click on the link below to activate your account:"
+  user_password_reset: "User#password_reset"

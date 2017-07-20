@@ -18,8 +18,9 @@ module SessionsHelper
       @current_user ||= User.find_by id: session_id
     elsif cookies_id
       user = User.find_by id: cookies_id
-      user_authenticate user if user && user.authenticated?
-      cookies[:remember_token]
+      if user && user.authenticated?(:remember, cookies[:remember_token])
+        user_authenticate user
+      end
     end
   end
 
