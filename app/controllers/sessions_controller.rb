@@ -6,11 +6,7 @@ class SessionsController < ApplicationController
     user = User.find_by email: session[:email].downcase
 
     if user && user.authenticate(session[:password])
-      if user.activated?
-        login_success user
-      else
-        messages
-      end
+      login_success user
     else
       login_fail
     end
@@ -23,16 +19,16 @@ class SessionsController < ApplicationController
 
   private
 
-  def messages
-    message = t "account_not_activated"
-    flash[:warning] = message
-    redirect_to root_url
-  end
-
   def login_success user
-    log_in user
-    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-    redirect_back_or user
+    if user.activated?
+      log_in user
+      params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+      redirect_back_or user
+    else
+      message = t "account_not_activated"
+      flash[:warning] = message
+      redirect_to root_url
+    end
   end
 
   def login_fail
