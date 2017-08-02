@@ -111,3 +111,8 @@ en:
   less_than_5MB: "should be less than 5MB"
   compose_new_micropost: "Compose new micropost..."
   choose_smaller_file: "Maximum file size is 5MB. Please choose a smaller file."
+  following: "following"
+  followers: "followers"
+  unfollow: "Unfollow"
+  follow: "Follow"
+  not_found: "Not Found"

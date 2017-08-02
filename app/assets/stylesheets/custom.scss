@@ -5,6 +5,8 @@ $gray-medium-light: #eaeaea;
 $purple: #bbb;
 $red: #f00;
 $gray: #e8e8e8;
+$blue: #00f;
+$gray-lighter: #808080;
 
 @mixin box-sizing {
   box-sizing: border-box;
@@ -86,6 +88,10 @@ aside {
     overflow: auto;
     padding: 10px 0;
   }
+
+  .follow {
+    padding: 0;
+  }
 }
 
 input,
@@ -121,6 +127,46 @@ textarea {
   ul {
     color: $red;
     margin: 0 0 30px;
+  }
+}
+
+.stats {
+  margin-top: 0;
+  overflow: auto;
+  padding: 0;
+
+  a {
+    border-left: 1px solid $gray-lighter;
+    color: $gray;
+    float: left;
+    padding: 0 10px;
+
+    &:first-child {
+      border: 0;
+      padding-left: 0;
+    }
+
+    &:hover {
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+
+  strong {
+    display: block;
+  }
+}
+
+.user-avatars {
+  margin-top: 10px;
+  overflow: auto;
+
+  .gravatar {
+    margin: 1px;
+  }
+
+  a {
+    padding: 0;
   }
 }
 
